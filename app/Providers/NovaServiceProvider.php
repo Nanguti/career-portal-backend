@@ -57,6 +57,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
         });
 
         Nova::style('prism-css', asset('assets/prism.css'));
+        Nova::style('prism-css', asset('assets/custom.css'));
         Nova::script('prism-js', asset('assets/prism.js'));
     }
 
