@@ -43,7 +43,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                     MenuItem::resource(JobListing::class),
                     MenuItem::resource(JobListingTag::class),
                     MenuItem::resource(JobSkill::class),
-                ])->icon('user')->collapsable(),
+                ])->icon('briefcase')->collapsable(),
 
                 MenuSection::make('Candidate Management', [
                     MenuItem::resource(Application::class),
@@ -51,7 +51,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                     MenuItem::resource(CandidateDocument::class),
                     MenuItem::resource(CandidateInterview::class),
                     MenuItem::resource(Feedback::class),
-                ])->icon('user')->collapsable(),
+                ])->icon('document-text')->collapsable(),
 
             ];
         });
